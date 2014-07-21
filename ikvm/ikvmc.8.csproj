@@ -61,7 +61,7 @@
     </Reference>
     <Reference Include="System.configuration" />
     <Reference Include="System.Xml">
-      <Name>System.XML</Name>
+      <Name>System.Xml</Name>
     </Reference>
   </ItemGroup>
   <ItemGroup>

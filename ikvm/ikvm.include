@@ -20,4 +20,6 @@
     <if test="${(not property::exists('rc')) and framework::sdk-exists(framework::get-target-framework()) and file::exists(path::combine(framework::get-sdk-directory(framework::get-target-framework()), 'rc.exe'))}">
         <property name="rc" value="${path::combine(framework::get-sdk-directory(framework::get-target-framework()), 'rc.exe')}" />
     </if>
+    <property overwrite="false" name="ReferencePath" value="${framework::get-assembly-directory(framework::get-target-framework())}" />
+
 </project>
